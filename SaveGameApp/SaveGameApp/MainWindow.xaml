@@ -5,10 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SaveGameApp"
         mc:Ignorable="d"
-        Title="Save Game Application" Height="400" Width="800">
-
-	<Grid Name="DynamicButtonGrid" Margin="10,50,10,10">
-		
-	</Grid>
-
+        Title="Save Game Application" MinWidth="680" MaxWidth="680" Width="680" ResizeMode="NoResize" Background="Black">
+	<Grid Name="DynamicButtonGrid" Margin="10,10,10,10"></Grid>
 </Window>
