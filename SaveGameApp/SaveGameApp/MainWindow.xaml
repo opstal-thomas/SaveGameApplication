@@ -5,11 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SaveGameApp"
         mc:Ignorable="d"
-        Title="Save Game Application" Height="339" Width="399">
+        Title="Save Game Application" Height="400" Width="800">
 
-	<Grid>
-		<Button x:Name="BrowseButton" Content="Browse" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="20" Width="75"/>
-		<TextBox x:Name="FolderPathText" HorizontalAlignment="Left" Height="20" Margin="75,0,0,0" TextWrapping="Wrap" Text="Path..." VerticalAlignment="Top" Width="120"/>
+	<Grid Name="DynamicButtonGrid" Margin="10,50,10,10">
+		
 	</Grid>
 
 </Window>
